@@ -29,7 +29,7 @@ O modelo de dados utilizado para representar uma tarefa inclui os seguintes camp
 
 ## Documentação da API
 
-A documentação da API pode ser encontrada [aqui](link_para_a_documentacao). Ela descreve detalhadamente como usar a API, incluindo os endpoints disponíveis e os parâmetros aceitos.
+A documentação da API pode ser encontrada [aqui](https://github.com/Pablobrek-bit/ActivityManager/blob/main/Proposta%20de%20projeto%20BackEnd%20-%20projetos%202023.2%20(1).pdf). Ela descreve detalhadamente como usar a API, incluindo os endpoints disponíveis e os parâmetros aceitos.
 
 ## Contribuições
 
@@ -42,5 +42,5 @@ Este projeto é parte do processo seletivo da empresa junior Loading. Contribui�
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](link_para_o_arquivo_LICENSE) para obter detalhes.
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE]([link_para_o_arquivo_LICENSE](https://github.com/Pablobrek-bit/ActivityManager/blob/main/LICENSE)https://github.com/Pablobrek-bit/ActivityManager/blob/main/LICENSE) para obter detalhes.
 
