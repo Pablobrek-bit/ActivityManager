@@ -6,6 +6,7 @@ import java.awt.Font;
 import java.awt.Image;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.util.Objects;
 
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -62,12 +63,12 @@ public class Login extends JFrame {
         passLabel.setFont(new Font("Roboto", Font.BOLD, 32));
         add(passLabel);
 
-        ImageIcon showPassIcon = new ImageIcon(getClass().getResource("/View/Images/amostrar-senha.png"));
+        ImageIcon showPassIcon = new ImageIcon(Objects.requireNonNull(getClass().getResource("/View/Images/amostrar-senha.png")));
         Image showPassImage = showPassIcon.getImage();
         Image scaledShowPassImage = showPassImage.getScaledInstance(40, 40, Image.SCALE_SMOOTH);
         scaledShowPassIcon = new ImageIcon(scaledShowPassImage);
 
-        ImageIcon hidePassIcon = new ImageIcon(getClass().getResource("/View/Images/esconder-senha.png"));
+        ImageIcon hidePassIcon = new ImageIcon(Objects.requireNonNull(getClass().getResource("/View/Images/esconder-senha.png")));
         Image hidePassImage = hidePassIcon.getImage();
         Image scaledHidePassImage = hidePassImage.getScaledInstance(40, 40, Image.SCALE_SMOOTH);
         scaledHidePassIcon = new ImageIcon(scaledHidePassImage);
